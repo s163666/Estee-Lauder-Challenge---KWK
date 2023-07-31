@@ -11,7 +11,6 @@
 		12BBB0DB2A785EC6006713E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBB0DA2A785EC6006713E4 /* ContentView.swift */; };
 		12BBB0DD2A785EC8006713E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0DC2A785EC8006713E4 /* Assets.xcassets */; };
 		12BBB0E02A785EC8006713E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0DF2A785EC8006713E4 /* Preview Assets.xcassets */; };
-		12BBB0E72A785F05006713E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0E62A785F05006713E4 /* Info.plist */; };
 		12BBB0E92A785F14006713E4 /* Estée Lauder Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +20,8 @@
 		12BBB0DA2A785EC6006713E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12BBB0DC2A785EC8006713E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12BBB0DF2A785EC8006713E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		12BBB0E62A785F05006713E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Estée Lauder Fonts"; sourceTree = "<group>"; };
+		12BBB0EA2A786250006713E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +54,10 @@
 		12BBB0D72A785EC6006713E4 /* esteeLauder */ = {
 			isa = PBXGroup;
 			children = (
+				12BBB0EA2A786250006713E4 /* Info.plist */,
 				12BBB0D82A785EC6006713E4 /* esteeLauderApp.swift */,
 				12BBB0DA2A785EC6006713E4 /* ContentView.swift */,
 				12BBB0DC2A785EC8006713E4 /* Assets.xcassets */,
-				12BBB0E62A785F05006713E4 /* Info.plist */,
 				12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */,
 				12BBB0DE2A785EC8006713E4 /* Preview Content */,
 			);
@@ -134,7 +133,6 @@
 				12BBB0E02A785EC8006713E4 /* Preview Assets.xcassets in Resources */,
 				12BBB0E92A785F14006713E4 /* Estée Lauder Fonts in Resources */,
 				12BBB0DD2A785EC8006713E4 /* Assets.xcassets in Resources */,
-				12BBB0E72A785F05006713E4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"esteeLauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +304,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"esteeLauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
