@@ -4,14 +4,14 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>AkzidenzGroteskBQ-Bold.ttf</string>
-		<string>AkzidenzGroteskBQ-Reg.ttf</string>
-		<string>OptimaDisplay-Book.ttf</string>
-		<string>OptimaDisplay-Light.ttf</string>
-		<string>OptimaDisplay-Roman.ttf</string>
-		<string>OptimaDisplay-UltraLight.ttf</string>
-		<string>OptimaEL-Roman.ttf</string>
-		<string>OptimaEL-Text.ttf</string>
+		<string>AkzidenzGroteskBQ-Bold.otf</string>
+		<string>AkzidenzGroteskBQ-Reg.otf</string>
+		<string>OptimaDisplay-Book.otf</string>
+		<string>OptimaDisplay-Light.otf</string>
+		<string>OptimaDisplay-Roman.otf</string>
+		<string>OptimaDisplay-UltraLight.otf</string>
+		<string>OptimaEL-Roman.otf</string>
+		<string>OptimaEL-Text.otf</string>
 	</array>
 </dict>
 </plist>
