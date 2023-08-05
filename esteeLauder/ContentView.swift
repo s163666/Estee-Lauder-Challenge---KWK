@@ -10,95 +10,58 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
+            TabView {
+//                ContentView() {
+//                    .tabItem {
+//                        Image(systemName: "profile")
+//                            .foregroundColor(Color("ContrastColor"))
+//                    }
+//                }
+//                home()
+//                    .tabItem {
+//                        Image(systemName: "house")
+//                            .foregroundColor(Color("ContrastColor"))
+//                    }
+                home()
+                    .tabItem {
+                        Image(systemName: "house")
+                            .foregroundColor(Color(hue: 1.0, saturation: 1.0, brightness: 1.0))
+                    }
+                shop()
+                    .tabItem {
+                        Image(systemName: "tag")
+                            .foregroundColor(Color(hue: 1.0, saturation: 1.0, brightness: 1.0))
+                    }
+                favorites()
+                    .tabItem {
+                        Image(systemName: "heart")
+                            .foregroundColor(Color("AccentColor"))
+                    }
+                profileSettings()
+                    .tabItem {
+                        Image(systemName: "person")
+                            .foregroundColor(Color("AccentColor"))
+                    }
+            }
             
-            ZStack {
-                
-                VStack {
-                    
-                    ScrollViewReader { proxy in
-                        ScrollView {
-                            HStack {
-                                Text(" JUST IN ")
-                                    .font(Font.custom("Optima-Regular", size: 18))
-                                
-                                Text(" DEALS ")
-                                    .font(Font.custom("Optima-Regular", size: 18))
-                                
-                            }
-                            
-                            HStack {
-                                Image("esteeSquare1")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                Image("esteeSquare2")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                            }
-                            Image("esteeSquare3")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                            Image("esteeSquare4")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                            HStack {
-                                Image("esteeSquare5")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                Image("esteeSquare6")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                            }
-                            
-                            Image("esteeSquare7")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                            Image("esteeSquare8")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                            
-                        }
+            .navigationTitle("E S T É E        L A U D E R")
+                .font(Font.custom("Optima-Bold", size: 18))
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem() {
+                        Image(systemName: "bag")
+                            .foregroundColor(Color(hue: 1.0, saturation: 1.0, brightness: 1.0))
+                        
+                        
                     }
                 }
-            }
-            .navigationTitle("E S T É E        L A U D E R")
-                .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem (){
-                    
-                    Button(action:{}, label: { Image(systemName: "bag") })
-                    
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    
-                    Button(action:{}, label: { Image(systemName: "house") })
-                    
-
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    
-                    Button(action:{}, label: { Image(systemName: "tag") })
-                    
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    
-                    Button(action:{}, label: { Image(systemName: "heart") })
-                    
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    
-                    Button(action:{}, label: { Image(systemName: "rosette") })
-                    
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    
-                    Button(action:{}, label: { Image(systemName: "person") })
-                    
-                }
-            }
+//            .toolbar {
+//                ToolbarItem (){
+//                    Button(action:{bag()}, label: { Image(systemName: "bag") })
+//
+//                }
+         
         }
-        
-        
-        
     }
 }
 

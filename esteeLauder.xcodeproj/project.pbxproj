@@ -13,6 +13,10 @@
 		12BBB0E02A785EC8006713E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0DF2A785EC8006713E4 /* Preview Assets.xcassets */; };
 		12BBB0E92A785F14006713E4 /* Estée Lauder Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */; };
 		12BBB0FC2A7C1D1A006713E4 /* profileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBB0FB2A7C1D1A006713E4 /* profileSettings.swift */; };
+		12E549C02A7DC8300073B5CA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E549BF2A7DC8300073B5CA /* home.swift */; };
+		12E549C22A7DC8450073B5CA /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E549C12A7DC8450073B5CA /* shop.swift */; };
+		12E549C42A7DC8530073B5CA /* favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E549C32A7DC8530073B5CA /* favorites.swift */; };
+		12E549C82A7DF8800073B5CA /* bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E549C72A7DF8800073B5CA /* bag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Estée Lauder Fonts"; sourceTree = "<group>"; };
 		12BBB0EA2A786250006713E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		12BBB0FB2A7C1D1A006713E4 /* profileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSettings.swift; sourceTree = "<group>"; };
+		12E549BF2A7DC8300073B5CA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		12E549C12A7DC8450073B5CA /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		12E549C32A7DC8530073B5CA /* favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorites.swift; sourceTree = "<group>"; };
+		12E549C72A7DF8800073B5CA /* bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				12BBB0EA2A786250006713E4 /* Info.plist */,
 				12BBB0D82A785EC6006713E4 /* esteeLauderApp.swift */,
 				12BBB0DA2A785EC6006713E4 /* ContentView.swift */,
+				12E549C72A7DF8800073B5CA /* bag.swift */,
+				12E549C12A7DC8450073B5CA /* shop.swift */,
+				12E549C32A7DC8530073B5CA /* favorites.swift */,
+				12E549BF2A7DC8300073B5CA /* home.swift */,
 				12BBB0FB2A7C1D1A006713E4 /* profileSettings.swift */,
 				12BBB0DC2A785EC8006713E4 /* Assets.xcassets */,
 				12BBB0E82A785F14006713E4 /* Estée Lauder Fonts */,
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E549C22A7DC8450073B5CA /* shop.swift in Sources */,
 				12BBB0DB2A785EC6006713E4 /* ContentView.swift in Sources */,
 				12BBB0D92A785EC6006713E4 /* esteeLauderApp.swift in Sources */,
+				12E549C42A7DC8530073B5CA /* favorites.swift in Sources */,
+				12E549C02A7DC8300073B5CA /* home.swift in Sources */,
+				12E549C82A7DF8800073B5CA /* bag.swift in Sources */,
 				12BBB0FC2A7C1D1A006713E4 /* profileSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
